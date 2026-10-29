@@ -22,7 +22,8 @@ first have the user enter a date that they want to see by getting the input then
 this will be done with the NASA apod api to enter a chosen date and get the daily photo for that date
 
 for the calendar part i will be use google calendar api to inferface with it by use the get command to see what is on it and https://developers.google.com/workspace/calendar/api/v3/reference/events these command to create events 
-apod_2026-10-22.jpg|700
 
-Pasted image 20261022110736.png
+<img width="744" height="744" alt="venus_20261024a" src="https://github.com/user-attachments/assets/37495fd5-08f9-4b0c-ba36-760cb97cf00e" />
+<img width="1609" height="1009" alt="Screenshot from 2026-10-22 11-06-05" src="https://github.com/user-attachments/assets/ba5c90db-dc96-4dc8-8308-fb2d61fafa77" />
+
 ^ a example
