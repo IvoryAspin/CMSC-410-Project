@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080d1a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NASA */
+
+.nasa-section {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.nasa-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nasa-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+
+    background: linear-gradient(
+        transparent,
+        rgba(0,0,0,0.9)
+    );
+}
+
+.nasa-overlay h1 {
+    color: #8db9ff;
+    margin-bottom: 10px;
+}
+
+.nasa-overlay h2 {
+    margin-bottom: 8px;
+}
+
+#nasaDescription {
+    max-height: 75px;
+    overflow-y: auto;
+    line-height: 1.5;
+}
+
+/* CALENDAR */
+
+.calendar-section {
+    height: 50vh;
+    padding: 20px 30px;
+    overflow-y: auto;
+    background: #101827;
+    border-top: 2px solid #263653;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-header h1 {
+    color: #8db9ff;
+}
+
+button {
+    padding: 8px 15px;
+    background: #315b9b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    background: #202d43;
+    color: white;
+    border: 1px solid #455773;
+    border-radius: 5px;
+}
+
+.event {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #1b2940;
+    border-left: 4px solid #538de0;
+    border-radius: 5px;
+}
+
+.event-time {
+    min-width: 120px;
+    color: #8db9ff;
+}
+
+.event-description {
+    color: #aab8ca;
+    margin-top: 5px;
+}

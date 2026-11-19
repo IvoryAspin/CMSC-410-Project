@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>NASA Daily Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <main class="dashboard">
+
+        <!-- NASA SECTION -->
+
+        <section class="nasa-section">
+
+            <img id="nasaImage" src="" alt="NASA APOD">
+
+            <div class="nasa-overlay">
+
+                <h1>NASA Astronomy Picture of the Day</h1>
+
+                <h2 id="nasaTitle">Loading...</h2>
+
+                <p id="nasaDate"></p>
+
+                <p id="nasaDescription"></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CALENDAR SECTION -->
+
+        <section class="calendar-section">
+
+            <div class="calendar-header">
+
+                <h1>Daily Schedule</h1>
+
+                <div>
+
+                    <button id="previousDay">&lt;</button>
+
+                    <input type="date" id="selectedDate">
+
+                    <button id="nextDay">&gt;</button>
+
+                </div>
+
+            </div>
+
+            <div id="events">
+
+                Loading Calendar...
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
